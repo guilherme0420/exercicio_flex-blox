@@ -1,0 +1,9 @@
+.Nextage{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.Nextage p{
+    display: flex;
+}

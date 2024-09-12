@@ -1,0 +1,29 @@
+*{
+    
+}
+
+.planos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.planos h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+}
+
+.basico ,.intermediario ,.avancado{
+    background-color: aqua;
+    padding: 10px;
+    border: 3px black solid;
+    border-radius: 4px;
+}

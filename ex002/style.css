@@ -1,0 +1,13 @@
+*{
+    text-decoration: none;
+}
+
+.pai{
+    display: flex;
+    gap: 20px;
+}
+
+.compra1 ,.compra2 ,.compra3{
+    display: flex;
+    flex-direction: column;
+}

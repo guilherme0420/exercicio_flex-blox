@@ -1,0 +1,12 @@
+.pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.pai form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
