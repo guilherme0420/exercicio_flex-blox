@@ -1,29 +1,21 @@
-*{
-    
-}
-
 .planos{
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-around;
+
+    gap: 20px;
 }
 
-.planos h1{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.cards{
-    display: flex;
-    flex-direction: column;
-    
-    gap: 30px;
-}
-
-.basico ,.intermediario ,.avancado{
-    background-color: aqua;
+.planos .cards{
+    width: 300px;
     padding: 10px;
-    border: 3px black solid;
+    border: rgb(0, 0, 0) solid;
     border-radius: 4px;
+    background: #999;
+    box-shadow: rgb(82, 82, 82) 5px 5px 2px ;
+}
+
+button{
+    border: 2px black solid;
+    border-radius: 4px ;
+    background-color: #c9c9c9;
 }

@@ -1,0 +1,22 @@
+.servicos{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.servicos .cards{
+    width: 250px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: beige;
+    border: black solid;
+    align-items: center;
+}
+.servicos .cards img{
+    width: 100%;
+    width: 50px;
+}

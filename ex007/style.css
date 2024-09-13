@@ -1,0 +1,21 @@
+body{
+    background-color: #999;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produtos .cards{
+    width: 300px;
+    background-color: rgb(41, 41, 41);
+    border: rgb(255, 255, 255) solid;
+    color: #fff;
+    padding: 20px;
+}
+
+.produtos .cards img{
+    width: 100%;
+}

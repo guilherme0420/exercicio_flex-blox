@@ -1,4 +1,13 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
+    background-color: #999;
+    padding: 30px;
+    box-shadow: black 0px 3px 20px ;
 }

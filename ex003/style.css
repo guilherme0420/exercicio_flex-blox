@@ -1,12 +1,36 @@
-.pai {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+ fieldset {
+     background-color: rgb(59, 17, 99);
+     border-radius: 4px;
 
-}
-.pai form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
+ }
+
+ legend {
+     text-transform: uppercase;
+     background-color: blueviolet;
+     color: rgb(198, 173, 221);
+     border-radius: 4px;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+ }
+
+ input {
+     border-radius: 4px;
+     background-color: rgb(237, 218, 255);
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button{
+     background-color: rgb(237, 218, 255);
+     border-radius: 4px;
+ }
